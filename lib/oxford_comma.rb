@@ -8,6 +8,6 @@ end
 
 def oxford_comma(3_element_array
   if 3_element_array.length > 2
-  3_element_array[0..-2].join(',') + " and " + array[-1] 
-end
+  puts 3_element_array[0..-2].join(',') + " and " + array[-1] 
+  end
 end
