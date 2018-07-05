@@ -8,8 +8,7 @@ end
 
 def oxford_comma(array)
  new_array = array(-1).prepend("and")
- end
- new_array.join (" , ")
+ new_array.join (",")
 end
  
   it "adds commas plus a final 'and' when given a 3-element array" do
