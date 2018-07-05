@@ -7,9 +7,9 @@ def oxford_comma(array)
 end
 
 def oxford_comma(array)
-  array.prepend("and")
-
-
+ new_array = array(-1).prepend("and")
+ new_array.join (" , ")
+end
  
   it "adds commas plus a final 'and' when given a 3-element array" do
     expect(oxford_comma(["kiwi", "durian", "starfruit"])).to eq("kiwi, durian, and starfruit")
