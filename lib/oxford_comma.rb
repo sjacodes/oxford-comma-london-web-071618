@@ -9,6 +9,7 @@ def oxford_comma(array2)
      array2.join(" and ")
    end
    return array2
+ end
 end
 
 
