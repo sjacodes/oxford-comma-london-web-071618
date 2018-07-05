@@ -2,7 +2,9 @@ def oxford_comma(array)
   array.join(",")
 end
 
-
+def oxford_comma(array)
+  array.join("and")
+end
 
 describe "#oxford_comma" do
   it 'returns a string without any additional fomatting when given a 1-element array' do
