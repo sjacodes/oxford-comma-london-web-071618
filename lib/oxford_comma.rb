@@ -10,8 +10,3 @@ def oxford_comma(array2)
 end
 
 
-def oxford_comma(array3)
-  if array3.length == 3
-    puts array[0..-2].join(',') + " and " + array[-1] 
-  end
-end
