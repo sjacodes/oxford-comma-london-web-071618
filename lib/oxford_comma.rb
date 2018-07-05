@@ -2,7 +2,7 @@ def oxford_comma(array)
   array.join(",")
 end
 
-def oxford_comma(array_1)
+def oxford_comma(array)
   array_1.join(" and ")
 end
 
