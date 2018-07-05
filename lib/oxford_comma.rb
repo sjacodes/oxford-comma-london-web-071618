@@ -3,7 +3,7 @@ def oxford_comma(array)
 end
 
 def oxford_comma(array)
-  array_1.join(" and ")
+  array.join(" and ")
 end
 
 def oxford_comma(array)
